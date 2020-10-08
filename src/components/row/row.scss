@@ -1,0 +1,27 @@
+.row {
+  h2 {
+    margin: 0.7rem 0.4rem;
+  }
+  .row__film-images {
+    display: flex;
+    padding: 1.2rem 0.7rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .row__film-image {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    transition: transform 450ms ease-in;
+    margin-right: 0.7rem;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
