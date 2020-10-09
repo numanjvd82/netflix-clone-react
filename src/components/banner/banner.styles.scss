@@ -18,6 +18,9 @@
     font-weight: 400;
     margin: 0.5rem 0;
     max-width: 360px;
+    background: rgba($color: #000000, $alpha: 0.2);
+    padding: 20px;
+    border-radius: 10px;
   }
 
   .banner__button {
@@ -52,7 +55,7 @@
     background-image: linear-gradient(
       180deg,
       transparent,
-      rgba(37, 37, 37, 0.7),
+      rgba(37, 37, 37, 0.8),
       #111
     );
   }
