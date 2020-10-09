@@ -1,10 +1,13 @@
 .row {
+  margin-left: 1.3rem;
+
   h2 {
     margin: 0.7rem 0.4rem;
   }
+
   .row__film-images {
     display: flex;
-    padding: 1.2rem 0.7rem;
+    padding: 1rem 0.7rem;
     overflow-y: hidden;
     overflow-x: scroll;
 
@@ -15,13 +18,22 @@
 
   .row__film-image {
     width: 100%;
+    padding: 0 0.4rem;
     object-fit: contain;
     max-height: 200px;
     transition: transform 450ms ease-in;
     margin-right: 0.7rem;
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.08);
+    }
+  }
+
+  .row__large__film-image {
+    max-height: 300px;
+
+    &:hover {
+      transform: scale(1.09);
     }
   }
 }
