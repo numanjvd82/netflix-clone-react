@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Row from './components/row/row';
-import Banner from './components/banner/banner';
-import Navbar from './components/navbar/navbar';
+import { Navbar, Banner, Row } from './components/index';
 import requests from './api/requests';
 
 const App = () => {
